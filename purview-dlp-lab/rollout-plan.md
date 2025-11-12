@@ -1,0 +1,4 @@
+- Week 1: Test in small pilot sites/Teams (policy tips only)
+- Week 2–3: Audit logs + review hits with stakeholders
+- Week 4: Enable Block with Override for Finance; exceptions for execs and service accounts
+- Week 5: Expand scope to All; tune exceptions; finalize training material

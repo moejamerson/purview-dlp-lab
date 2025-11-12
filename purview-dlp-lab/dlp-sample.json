@@ -1,0 +1,29 @@
+{
+  "Policies": [
+    {
+      "Name": "[LAB] PCI - Card Numbers",
+      "Mode": "Audit",
+      "ContentContainsSensitiveInformation": {
+        "SensitiveInfoTypes": [
+          "U.S. Credit Card Number"
+        ]
+      },
+      "UserNotifications": {
+        "Email": true,
+        "PolicyTip": true
+      },
+      "UserOverrides": {
+        "Enabled": true,
+        "JustificationText": "Business justification"
+      },
+      "Scoping": {
+        "Include": [
+          "Group: Finance"
+        ],
+        "Exclude": [
+          "Account: BreakGlass"
+        ]
+      }
+    }
+  ]
+}
